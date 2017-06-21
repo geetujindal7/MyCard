@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hi.mycard.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/shop"
+        android:scaleType="centerCrop" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JINDAL SALES"
+    android:textColor="#802b00"
+        android:textSize="35sp"
+        android:textStyle="italic"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/nam_text_view"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="corporation"
+        android:textSize="35sp"
+        android:layout_below="@id/nam_text_view"
+        android:layout_marginLeft="90dp"
+        android:textColor="#802b00"
+        android:textStyle="italic"
+        android:id="@+id/mum_text_view" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="old court road,near railway station-sirsa,haryana"
+        android:textSize="20sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="0dp"
+        android:layout_below="@id/mum_text_view"
+        android:textColor="#006699"
+        android:textStyle="italic"
+        android:layout_marginBottom="100dp"
+        android:layout_alignParentBottom="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deals with sanitary goods and wholesale"
+        android:textSize="25sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="310dp"
+        android:textColor="#000000"
+        android:textStyle="italic"
+/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONTACT DETAILS-"
+        android:textSize="20sp"
+        android:textColor="@android:color/primary_text_dark"
+        android:layout_marginBottom="120dp"
+        android:layout_alignParentBottom="true"
+        android:textStyle="bold"
+         />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gian chand jindal(9812431477)"
+        android:textSize="20sp"
+        android:id="@+id/name_text_view"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="95dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="10dp"
+        android:textStyle="bold"
+    android:layout_alignParentLeft="true"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Gaurav Jindal(9215000732)"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:textColor="@android:color/white"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_marginBottom="70dp"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saurav Jindal(9215200732)"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="Email-gauravjindal76@gmail.com"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        />
+</RelativeLayout>
